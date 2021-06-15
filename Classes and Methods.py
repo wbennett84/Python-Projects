@@ -1,6 +1,7 @@
 
 
-
+# This sets up a car class with a couple properties and a couple methods that take
+# in info and print out results
 class Car:
     def __init__(self, color, top_speed):
         self.color = color
@@ -19,6 +20,8 @@ class Car:
         if (question1) == ("n"):
             print ("You might not be interested in this subject!")
 
+#This sets up a child class and gives it a couple more properties as well as
+# a polymorphic method based on the Car class. 
 
 class Body(Car):
     def __init__(self, doors, bed):
@@ -36,6 +39,9 @@ class Body(Car):
             print ("Then get ready!")
 
 
+
+#This sets up another child class and gives it a couple more properties as well as
+# a polymorphic method based on the Car class. 
 
 
 class Brand(Car):
@@ -55,7 +61,8 @@ class Brand(Car):
 
 
 
-
+# This basically is the code that will run as long as all this is contained
+# in the main .py file. This sequence allows for a program with a basic flow.
 
 if __name__ == "__main__":
     car1 = Car("Red", 155)
