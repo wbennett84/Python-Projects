@@ -7,8 +7,8 @@ from tkinter import filedialog
 import time
 import os
 import shutil
-import NewMain
-from NewMain import *
+import Main
+from Main import *
 import datetime
 from datetime import timedelta
 
